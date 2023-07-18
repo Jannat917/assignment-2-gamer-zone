@@ -1,0 +1,72 @@
+/* RESPONSIVE FOR MOBILE */
+
+
+@media screen and (max-width: 576px){
+
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-logo-section{
+      width: auto;
+    }
+    .nav-a-container{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+/*Banner Section*/
+
+.banner-section-container{
+    flex-direction:column-reverse;
+    align-items: center;
+}
+
+
+.banner-section-column-1{
+width: 100%;
+
+}
+
+  
+
+.banner-p{
+    padding-left: 0px;
+}
+
+.banner-btn-div{
+    padding-left: 0;
+}
+.banner-section-column-2 img{
+    width: 250px;
+    
+    
+}
+.banner-section-column-2{
+    width: 100%;
+}
+
+
+/* MAIN  SECTION 1*/
+
+
+.main-section-1-column-container{
+grid-template-columns: repeat(1,1fr);
+row-gap: 20px;
+}
+
+
+}
+
+/*RESPONSIVE FOR TABLET*/
+
+
+@media screen and (min-width: 576px) and (max-width: 960px){
+
+    .banner-btn-div{
+        padding-left: 10px;
+    }
+}
+    
