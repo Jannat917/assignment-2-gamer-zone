@@ -417,3 +417,282 @@ padding-top: 80px;}
         padding-bottom: 50px;
         }
 
+
+
+        /* RESPONSIVE FOR MOBILE */
+
+
+@media screen and (max-width: 576px){
+
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-logo{
+        width: auto;
+    }
+    .nav-title{
+        font-size: 1.5rem;
+    }
+    .nav-logo-section{
+   padding-bottom: 10px;
+    }
+    .nav-a-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+/*Banner Section*/
+
+.banner-section-container{
+    flex-direction:column-reverse;
+    align-items: center;
+}
+
+
+.banner-section-column-1{
+width: 100%;
+padding-top: 0;
+;
+}
+
+.banner-p{
+    padding-left: 0px;
+}
+
+.banner-section-column-1{
+    width: 200px;
+}
+.banner-h3{
+    font-size: 1.6rem;
+    padding-top: 5rem;
+}
+.banner-h1{
+    font-size: 3rem;
+    padding-bottom: 4px;
+}
+
+.banner-p{
+    font-size: 1rem;
+    padding-left: 10px;
+}
+.banner-btn-div{
+    padding-left: 10px;
+}
+
+.banner-btn-1,.banner-btn-2{
+    font-size: 0.6rem;
+   
+    padding:0.5rem;
+}
+
+.banner-section-column-2 img{
+    width: 200px;
+    
+}
+.banner-section-column-2{
+    width:40%;
+    padding: 0;
+    margin: 0;
+    height: 110px;
+}
+
+
+/* MAIN  SECTION 1*/
+
+
+.main-section-1-column-container{
+flex-direction: column;
+align-items: center;
+column-gap: 0;
+}
+
+.main-section-1-h3,.online-game{
+    font-size: 0.8rem;
+
+  
+}
+
+.main-section-1-p{
+    font-size: .35rem;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+
+.main-section-1-column img{
+    width:150px;}
+
+    .main-section-1-column p{
+        font-size: 10px;
+    }
+
+    .main-section-1-column{
+        width: 40%;
+        height: 220px;
+        
+        padding: 0;
+    }
+
+    .main-section-1{
+        padding: 0;
+    }
+/*MAIN SECTION 2*/
+
+.main-section-2-column-container{
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+.main-section-2-column-1{
+   text-align: center;
+   width: 200px;
+}
+.main-section-2-column-2{
+    height: 150px;
+width:150px;
+}
+
+.img-2{
+    height: 50%;
+    position: relative;
+    bottom:70px;
+    right: 40px;
+}
+.angel-img img{
+    width: 100px;
+}
+
+
+
+.main-section-2-h1{
+    font-size: 1rem;
+    padding-bottom: 4px;
+    text-align: center;
+}
+
+.main-section-2-p{
+    font-size: .5rem;
+    text-align: center;
+   
+   width: 200px;
+}
+
+
+/*MAIN SECTION 3 */
+
+
+.section-3-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+height: 4rem;
+border-radius: 50px;
+}
+
+.section-3-box img{
+    width: 40px;
+height: 40px;
+border-radius: 50px;
+}
+
+.section-3-box p{
+    color: #0B0223;
+font-size: 10px;
+font-weight: 600;
+}
+
+.section-3-box-container{
+padding: 0;
+
+    
+.section-3{
+    padding: 0;
+    margin: 0;
+}
+  }
+
+
+  /*FOOTER SECTION */
+  .footer-2nd-div{
+    display: grid;
+    grid-template-columns: repeat(3,0.5fr);
+    column-gap: 0;
+    row-gap: 20px;
+    font-size: 0.8rem;
+  }
+
+  .footer-logo-container img{
+    width: 30px;
+    height: 20px;
+}
+
+.footer-title{
+    font-size: 1.5rem;
+}
+
+
+.footer-logos{
+    width: 2rem;
+}
+
+.footer-4th-div{
+
+    display: flex;
+    flex-wrap: wrap;
+font-size: 0.7rem;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-p{
+    font-size: 0.4rem;
+}
+
+}
+/*RESPONSIVE FOR TABLET*/
+
+
+@media screen and (min-width: 576px) and (max-width: 960px){
+
+
+   
+    .banner-btn-div{
+        padding-left: 50px;
+    }
+
+    .banner-section-column-2 img{
+        width: 300px;}
+        
+
+        .banner-btn-1,.banner-btn-2{
+            font-size: 1rem;
+        }
+        .main-section-1-column-container{
+            flex-direction: column;
+            align-items: center;
+            column-gap: 0;
+            }
+
+            .main-section-2-column-2{
+                height: 500px;
+            width:600px;
+            }
+    
+
+            .footer-2nd-div{
+                display: grid;
+                grid-template-columns: repeat(3,0.5fr);
+                column-gap: 0;
+                row-gap: 20px;
+                font-size: 0.8rem;
+              }
+
+              .footer-p{
+                font-size: 0.6rem;
+              }
+}
