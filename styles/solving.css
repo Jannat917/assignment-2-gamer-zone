@@ -210,7 +210,10 @@ justify-content: center;
   }
 
   .main-section-1-column img{
-    width:15.5rem;}
+    width:15.5rem;
+display: block;}
+
+
 
     .main-section-1-column{
         text-align: start;
