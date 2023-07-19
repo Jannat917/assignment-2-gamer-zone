@@ -91,12 +91,12 @@ display: flex;
 .banner-section-container{
     display: flex;
     gap: 3.125rem;
-   max-width:81.25rem;
+  /* max-width:81.25rem;
     margin: 0 auto;
-    border: 2px solid gray;
+    border: 2px solid gray; */
 }
 .banner-section-column-1{
-border: 1px solid tomato;
+  /*border: 1px solid tomato;*/
 width: 700px;
  background-color: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
 
@@ -122,7 +122,7 @@ background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-margin: 0 auto;
+ /*margin: 0 auto;*/
 
 }
 
@@ -162,7 +162,7 @@ background: #4EC5F7;
 
 
 .banner-section-column-2{
-    border: 1px solid blue;
+  /*  border: 1px solid blue;*/
   
   height: 28rem;
     margin-top: 6.25rem;
@@ -202,7 +202,7 @@ line-height: 1.87rem;
 
 .main-section-1-column-container{
     
-    border: 1px solid violet;
+  /*  border: 1px solid violet; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -210,7 +210,7 @@ line-height: 1.87rem;
     
     
 }
-.main-section-1-column{ border: 1px solid blue;
+.main-section-1-column{/* border: 1px solid blue;*/
     text-align: start;
 border-radius: 1rem;
 width: 15.625rem;
@@ -225,21 +225,21 @@ justify-content: center;
 .main-section-1{
     
     margin: 0 auto;
-    border: 1px solid black;
-    max-width: 81.25rem;
+  /*  border: 1px solid black;*/
+   /* max-width: 81.25rem;*/
 }
 
 /* MAIN SECTION 2 STYLES */
 
 .main-section-2{
-    max-width: 81.25rem;
-    margin: 6.25rem auto;
-    border: 1px solid red;
+   /* max-width: 81.25rem;*/
+    /*margin: 6.25rem auto;*/
+   /* border: 1px solid red;*/
 }
 
-.main-section-2-column-1{
-    max-width: 21rem;
-    border: 1px solid blue;
+.main-section-2-column-1 {
+   /* max-width: 21rem;*/
+   /* border: 1px solid blue;*/
 }
 
 .main-section-2-h1{
@@ -312,7 +312,7 @@ font-weight: 600;
 }
 
 .section-3-box:hover{
-    border: 2px solid #FF42A5;
+   /* border: 2px solid #FF42A5;*/
 }
 
 
@@ -323,7 +323,7 @@ font-weight: 600;
    justify-content: center;
    align-items: center;
    gap: 30px;
-   border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .section-3{
@@ -333,7 +333,7 @@ font-weight: 600;
 }
 /* FOOTER */
 footer{
-    border: 1px solid orange;
+  /*  border: 1px solid orange;*/
 
     margin-top: 6.25rem;
 
