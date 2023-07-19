@@ -505,6 +505,7 @@ padding-top: 0;
 
 .main-section-1-column-container{
 flex-direction: column;
+row-gap: 40px;
 align-items: center;
 column-gap: 0;
 }
@@ -517,7 +518,7 @@ column-gap: 0;
 
 .main-section-1-p{
     font-size: .35rem;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
     padding-top: 5px;
 }
 
@@ -531,7 +532,7 @@ column-gap: 0;
 
     .main-section-1-column{
         width: 40%;
-        height: 220px;
+        height: 200px;
         
         padding: 0;
     }
