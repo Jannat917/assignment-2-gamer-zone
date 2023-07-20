@@ -93,6 +93,7 @@ display: flex;
     gap: 3.125rem;
     padding-bottom: 70px;
     background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
 }
 
 
@@ -628,13 +629,12 @@ width:150px;
 .img-2{
     height: 50%;
     position: relative;
-    bottom:70px;
-    right: 40px;
+    bottom:50px;
+    right: 30px;
 }
 .angel-img img{
     width: 100px;
 }
-
 
 
 .main-section-2-h1{
